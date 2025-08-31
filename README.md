@@ -1,68 +1,56 @@
 # Future_ML_task-1
-This project is part of my learning journey in Machine Learning. The goal of this task is to predict customer churn (whether a customer will leave or stay) using a Random Forest Classifier.
-# 📊 Customer Churn Prediction using Random Forest  
+This repository contains a Power BI dashboard integrated with Python forecasting that provides insights into historical sales performance and predicts future trends. The dashboard highlights sales, profit, and key forecasting metrics to support business decisions.
 
-This repository contains a project developed during my Machine Learning learning path.  
-The objective is to **predict customer churn** — determining whether a customer will continue or leave — using a **Random Forest Classifier**.
+# 📊 Superstore Sales Forecast Dashboard  
 
----
-
-## 🚀 Overview  
-Customer churn is a major concern for industries like telecom, banking, and subscription-based services.  
-Being able to forecast churn helps organizations take preventive actions to improve customer retention.  
-
-In this project, I:  
-- Applied **data preprocessing** (missing value handling, encoding, feature scaling).  
-- Designed and trained a **Random Forest model** for classification.  
-- Assessed performance with **Accuracy, Precision, Recall, F1-score, and Confusion Matrix**.  
-- Used **SHAP values** to interpret feature contributions.  
+This project showcases a Power BI dashboard combined with Python-based forecasting to analyze past sales and predict future performance.  
+The dashboard provides an overview of sales, profit, and forecasting accuracy to assist in strategic decision-making.  
 
 ---
 
-## 📂 Main Features  
-- Random Forest-based churn prediction  
-- Evaluation with standard classification metrics  
-- Confusion Matrix visualization for performance insights  
-- SHAP plots for explainable AI and feature impact  
+## 📌 Key Features  
 
----
+- **Metric Cards**  
+  - Total Sales  
+  - Total Profit  
+  - Predicted Sales & Profit  
+  - Forecast Accuracy (MAE, RMSE, MAPE)  
 
-## 📈 Model Results  
-- Reached a test set accuracy of approximately **79%**  
-- Identified critical factors like **tenure, contract type, and payment method** as strong indicators of churn  
+- **Visualizations**  
+  - **Line Chart** – Comparison of Actual vs. Forecasted Sales & Profit  
+  - **Bar Chart** – Sales & Profit distribution by Category & Sub-Category  
+  - **Pie Chart** – Category contributions to overall sales  
+  - **Table** – Forecast metrics and evaluation summary  
+  - **Clustered Bar Chart** – Regional Sales insights  
+
+- **KPIs & Insights**  
+  - Forecast highlights upcoming sales and profit trends  
+  - Useful for **inventory planning** and **budget allocation**  
+  - Technology & Furniture categories indicate strong future growth  
 
 ---
 
 ## 🛠️ Tools & Technologies  
-- **Python** (Google Colab environment)  
-- **Scikit-learn** – model development  
-- **Pandas & NumPy** – preprocessing and data handling  
-- **Matplotlib & Seaborn** – plotting and visualization  
-- **SHAP** – explainability of the ML model  
+
+- **Power BI** – Dashboard creation and visualization  
+- **Python** (Pandas, Statsmodels, Scikit-learn) – Time series forecasting  
+- **CSV Dataset** – Sample Superstore sales data  
 
 ---
 
-## 📌 Running the Project  
-1. Open the notebook in **Google Colab**  
-2. Upload your dataset (`.csv` format)  
-3. Execute the cells sequentially to train and analyze the model  
+## 🚀 How to Run  
+
+1. Download the `.pbix` file from this repository.  
+2. Open it in **Power BI Desktop**.  
+3. Execute the forecasting script (`python/superstore_forecast.py`) to refresh predictions.  
+4. Interact with the dashboard using filters (category, region, time period).  
 
 ---
 
-## 📷 Example Outputs  
-- Confusion Matrix chart  
-- Detailed classification report  
-- SHAP summary plot for feature importance  
+## 📊 Dashboard Snapshot  
 
----
+<img width="980" height="548" alt="Superstore Dashboard Preview" src="https://github.com/user-attachments/assets/c32dd966-485d-4d4b-9e4a-85af19c44f6b" />  
 
-## 🌟 Key Learnings  
-From this project, I gained practical knowledge on:  
-- Preparing datasets for classification tasks  
-- Implementing and tuning Random Forest for churn prediction  
-- Explaining ML predictions with SHAP  
-
----
 
 ## 🤝 Acknowledgement  
 This project was created as part of my **Future Interns Machine Learning journey**.  
